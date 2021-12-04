@@ -36,6 +36,50 @@
       "settings": {
       }
     },
+    "16386431256c167042": {
+      "type": "weekly-picks",
+      "settings": {
+        "collection": "weekly-picks"
+      }
+    },
+    "16386439194eb5aef0": {
+      "type": "collection-grid",
+      "blocks": {
+        "6950871c-48e4-4b77-adbc-080d4ae3247b": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "a7a05cc2-e5c6-40e3-8fb3-029a03acd659": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "a035db93-5206-4e29-b6ee-3e3e29e1f580": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "097c2d94-1e7a-4794-a933-2cfe64d8bc5d": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim"
+          }
+        }
+      },
+      "block_order": [
+        "6950871c-48e4-4b77-adbc-080d4ae3247b",
+        "a7a05cc2-e5c6-40e3-8fb3-029a03acd659",
+        "a035db93-5206-4e29-b6ee-3e3e29e1f580",
+        "097c2d94-1e7a-4794-a933-2cfe64d8bc5d"
+      ],
+      "settings": {
+        "header": ""
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -208,12 +252,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "96eb9cef-e0ed-4c13-864d-cc8dc2b8e323": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "96eb9cef-e0ed-4c13-864d-cc8dc2b8e323"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -229,6 +283,8 @@
   },
   "order": [
     "16386420897e34d9be",
+    "16386431256c167042",
+    "16386439194eb5aef0",
     "image_banner",
     "rich_text",
     "featured_products",

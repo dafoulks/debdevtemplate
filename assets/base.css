@@ -2286,3 +2286,92 @@
                             stroke: CanvasText;
                         }
                     }
+                    
+                    .product-bubble {
+                        position: absolute;
+                        top: 27px;
+                        left: 170px;
+                        height: 95px;
+                        width: 90px;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        text-align: center;
+                        z-index: 1;
+                    }
+                    
+                    .bubble--sale>span,
+                    .bubble--fave>span {
+                        color: #fff;
+                    }
+                    
+                    .bubble--new>span {
+                        color: #000;
+                    }
+                    
+                    .product-bubble>span {
+                        position: absolute;
+                        font-size: 15px;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                    
+                    .social-sharing {
+                        list-style: none;
+                        display: flex;
+                        flex-direction: row;
+                        padding: 0;
+                    }
+                    
+                    .social-sharing a {
+                        display: block;
+                        margin-right: 5px;
+                        padding: 8px 10px;
+                        text-decoration: none;
+                        color: #fff;
+                        background-color: rgb(var(--color-foreground));
+                        font-family: var(--font-heading-family);
+                        text-transform: uppercase;
+                    }
+                    
+                    .social-sharing .icon {
+                        width: 16px;
+                        height: 16px;
+                        margin-right: 4px;
+                    }
+                    
+                    .social-sharing .icon-facebook {
+                        color: #3b5998;
+                    }
+                    
+                    .social-sharing .icon-pinterest {
+                        color: #cb2027;
+                    }
+                    
+                    .social-sharing .icon-twitter {
+                        color: #00aced;
+                    }
+                    
+                    .moo-footer {
+                        background-color: #e8effa;
+                        height: 60%;
+                        margin-top: 100px;
+                    }
+                    
+                    .moo-footer a {
+                        font-family: var(--font-heading-family);
+                        font-size: 24px;
+                        margin-left: 40px;
+                        position: relative;
+                        top: -20%;
+                        color: rgb(var(--color-foreground));
+                        text-decoration: none;
+                    }
+                    
+                    @media screen and (min-width: 768px) {
+                        .moo-footer a {
+                            margin-left: 100px;
+                            font-size: 28px;
+                            top: -25px;
+                        }
+                    }
