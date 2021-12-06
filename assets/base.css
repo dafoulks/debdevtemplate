@@ -2375,3 +2375,15 @@
                             top: -25px;
                         }
                     }
+                    
+                    #toTop {
+                        position: fixed;
+                        bottom: 2rem;
+                        right: 2rem;
+                        z-index: 10000;
+                        width: 100px;
+                        height: 100px;
+                        border: none;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }

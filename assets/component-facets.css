@@ -839,6 +839,8 @@ input.mobile-facets__checkbox {
 
 .product-count__text span {
     background-color: #fff;
+    padding: 0 2rem;
+    opacity: 10;
 }
 
 .product-count__text.loading {
