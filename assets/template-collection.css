@@ -150,9 +150,8 @@
     display: flex;
     grid-column: 2;
     grid-row: 1;
-    padding-left: 2.5rem;
-    background-color: #fff;
     padding: 0 10px;
+    background-color: #fff;
 }
 
 @media screen and (min-width: 990px) {
@@ -166,6 +165,8 @@
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
+    padding: 0 10px;
+    background-color: #fff;
 }
 
 .collection-filters__field .select {
